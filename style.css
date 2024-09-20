@@ -1,9 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 td, th{
     border: 1px solid black;
     padding: 5px 20px;
     text-align: center;
 }
 
+#Education{
+    padding: 2rem;
+}
+
 table{
     border-collapse: collapse;
+}
+
+header{
+    padding: 2rem 0;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
 }
